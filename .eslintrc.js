@@ -13,6 +13,7 @@ module.exports = {
   },
   plugins: ['react', 'prettier'],
   rules: {
+    'react/destructuring-assignment': ['ignore'],
     'no-unused-vars': 'error',
     'react/jsx-props-no-spreading': 'off',
     'react/react-in-jsx-scope': 'off',
